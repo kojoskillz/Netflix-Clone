@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background{
+    background-image: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(Netflix-Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 62vh;
+}
+
+button{
+    background-color: red;
+    width: 20%;
+    height: 4vh;
+    border-radius: 6px;
+    text-align: center;
+}
+
+input{
+    background-color:rgba(10, 9, 9, 0.103);
+    padding-left: 10px;
+}
+
+input::placeholder{
+    color: rgba(245, 245, 245, 0.616);
+
+}
+
+.border_width{
+  border-width: 1px;
+  border-color: rgba(128, 128, 128, 0.56);
+}
+
+.height{
+    height: 70vh;
+}
+
+.height1{
+    height: 70vh;
+}
+
+
+.height2{
+    height: 145vh;
+}
+
+.footer{
+    height: 65vh;
+}
+
+.btn{
+    background-color: rgba(245, 245, 245, 0.066);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(245, 245, 245, 0.144);
+    width: 30%;
+
+}
+
+#page, #page1, #page2,#page3, #page4, #page5{
+    overflow: hidden;
+    display: none;
+    transition: .3s;
+}
+
+@media only screen and  (max-width:600px) {
+    body{
+        width: 100%;
+    }
+
+    .section1{
+        height: 80vh;
+    }
+    
+    .FAQ1{
+        width: 40vh;
+        margin: auto;
+    }
+}
